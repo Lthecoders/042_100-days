@@ -16,9 +16,9 @@ print(yellow, "\n\n🌟  MokeBeast Generator  🌟\n\n\n")
 MOKEbest_data = {
     '\n name of MokeBest: ': '',
     '\n TYPE OF MOKEBEST: ': '',
-    '\n special move of MokeBest: ': '',
-    '\n starting HP: ': '',
-    '\n starting MP: ': ''
+    '\n     special move: ': '',
+    '\n     starting HP: ' : '',
+    '\n     starting MP: ' : ''
 }
 
 print("Loading....", reset)
@@ -75,7 +75,7 @@ for x, y in MOKEbest_data.items():
     print(f" {reset} ", end="")
 
 for x, y in MOKEbest_data.items():
-  print(f" {x} : {y} ", end="")
+  print(f" {x}{y} ", end="")
 
 print()
 print(reset)
